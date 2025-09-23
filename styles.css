@@ -183,6 +183,9 @@
   .h-\[18px\] {
     height: 18px;
   }
+  .min-h-screen {
+    min-height: 100vh;
+  }
   .w-\[1\.125rem\] {
     width: 1.125rem;
   }
