@@ -10,6 +10,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-green-500: #3D8168;
+    --color-green-700: #1A4032;
     --color-black: #1C232B;
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -292,6 +293,24 @@
   .md\:flex-row {
     @media (width >= 48rem) {
       flex-direction: row;
+    }
+  }
+  .min-\[90rem\]\:hover\:bg-green-700 {
+    @media (width >= 90rem) {
+      &:hover {
+        @media (hover: hover) {
+          background-color: var(--color-green-700);
+        }
+      }
+    }
+  }
+  .\32 xl\:hover\:bg-green-700 {
+    @media (width >= 96rem) {
+      &:hover {
+        @media (hover: hover) {
+          background-color: var(--color-green-700);
+        }
+      }
     }
   }
 }
