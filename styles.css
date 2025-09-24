@@ -186,6 +186,9 @@
   .min-h-screen {
     min-height: 100vh;
   }
+  .w-1\/2 {
+    width: calc(1/2 * 100%);
+  }
   .w-\[1\.125rem\] {
     width: 1.125rem;
   }
@@ -201,8 +204,14 @@
   .w-full {
     width: 100%;
   }
+  .flex-1 {
+    flex: 1;
+  }
   .flex-col {
     flex-direction: column;
+  }
+  .flex-row {
+    flex-direction: row;
   }
   .items-center {
     align-items: center;
@@ -222,6 +231,9 @@
   .self-start {
     align-self: flex-start;
   }
+  .overflow-hidden {
+    overflow: hidden;
+  }
   .rounded-lg {
     border-radius: var(--radius-lg);
   }
@@ -230,6 +242,9 @@
   }
   .bg-green-500 {
     background-color: var(--color-green-500);
+  }
+  .bg-white {
+    background-color: var(--color-white);
   }
   .p-8 {
     padding: calc(var(--spacing) * 8);
@@ -263,6 +278,21 @@
   }
   .no-underline {
     text-decoration-line: none;
+  }
+  .md\:w-1\/2 {
+    @media (width >= 48rem) {
+      width: calc(1/2 * 100%);
+    }
+  }
+  .md\:w-\[37\.5rem\] {
+    @media (width >= 48rem) {
+      width: 37.5rem;
+    }
+  }
+  .md\:flex-row {
+    @media (width >= 48rem) {
+      flex-direction: row;
+    }
   }
 }
 @layer components {
