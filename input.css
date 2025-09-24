@@ -20,19 +20,19 @@
   }
 
   .text-preset-2 {
-    @apply font-montserrat text-[14px] leading-4 font-bold tracking-normal;
+    @apply font-montserrat text-[0.875rem] leading-4 font-bold tracking-normal;
   }
 
   .text-preset-3 {
-    @apply font-montserrat text-[14px] leading-[160%] font-medium tracking-normal;
+    @apply font-montserrat text-[0.875rem] leading-[160%] font-medium tracking-normal;
   }
 
   .text-preset-4 {
-    @apply font-montserrat text-[12px] leading-[120%] font-medium tracking-[5px];
+    @apply font-montserrat text-[0.75rem] leading-[120%] font-medium tracking-[5px];
   }
 
   .text-preset-5 {
-    @apply font-montserrat text-[13px] leading-[120%] font-medium tracking-normal;
+    @apply font-montserrat text-[0.8125rem] leading-[120%] font-medium tracking-normal;
   }
 
   .cart-button {

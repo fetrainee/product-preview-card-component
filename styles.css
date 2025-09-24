@@ -267,7 +267,7 @@
   }
   .text-preset-2 {
     font-family: var(--font-montserrat);
-    font-size: 14px;
+    font-size: 0.875rem;
     --tw-leading: calc(var(--spacing) * 4);
     line-height: calc(var(--spacing) * 4);
     --tw-font-weight: var(--font-weight-bold);
@@ -277,7 +277,7 @@
   }
   .text-preset-3 {
     font-family: var(--font-montserrat);
-    font-size: 14px;
+    font-size: 0.875rem;
     --tw-leading: 160%;
     line-height: 160%;
     --tw-font-weight: var(--font-weight-medium);
@@ -287,7 +287,7 @@
   }
   .text-preset-4 {
     font-family: var(--font-montserrat);
-    font-size: 12px;
+    font-size: 0.75rem;
     --tw-leading: 120%;
     line-height: 120%;
     --tw-font-weight: var(--font-weight-medium);
@@ -297,7 +297,7 @@
   }
   .text-preset-5 {
     font-family: var(--font-montserrat);
-    font-size: 13px;
+    font-size: 0.8125rem;
     --tw-leading: 120%;
     line-height: 120%;
     --tw-font-weight: var(--font-weight-medium);
