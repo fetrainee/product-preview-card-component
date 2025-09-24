@@ -1,6 +1,6 @@
 /*! tailwindcss v4.1.13 | MIT License | https://tailwindcss.com */
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
 @layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
@@ -9,9 +9,9 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-green-500: #3D8168;
-    --color-green-700: #1A4032;
-    --color-black: #1C232B;
+    --color-green-500: #3d8168;
+    --color-green-700: #1a4032;
+    --color-black: #1c232b;
     --color-white: #fff;
     --spacing: 0.25rem;
     --font-weight-medium: 500;
@@ -20,10 +20,10 @@
     --radius-lg: 0.5rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
-    --color-gray: #6C7289;
-    --color-cream: #F2EAE2;
-    --font-fraunces: 'Fraunces', sans-serif;
-    --font-montserrat: 'Montserrat', sans-serif;
+    --color-gray: #6c7289;
+    --color-cream: #f2eae2;
+    --font-fraunces: "Fraunces", sans-serif;
+    --font-montserrat: "Montserrat", sans-serif;
   }
 }
 @layer base {
@@ -181,47 +181,23 @@
   .h-\[1\.125rem\] {
     height: 1.125rem;
   }
-  .h-\[18px\] {
-    height: 18px;
-  }
   .min-h-screen {
     min-height: 100vh;
-  }
-  .w-1\/2 {
-    width: calc(1/2 * 100%);
   }
   .w-\[1\.125rem\] {
     width: 1.125rem;
   }
-  .w-\[18px\] {
-    width: 18px;
-  }
   .w-\[21\.875rem\] {
     width: 21.875rem;
   }
-  .w-\[350px\] {
-    width: 350px;
-  }
-  .w-full {
-    width: 100%;
-  }
-  .flex-1 {
-    flex: 1;
-  }
   .flex-col {
     flex-direction: column;
-  }
-  .flex-row {
-    flex-direction: row;
   }
   .items-center {
     align-items: center;
   }
   .justify-center {
     justify-content: center;
-  }
-  .gap-2 {
-    gap: calc(var(--spacing) * 2);
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
@@ -241,26 +217,11 @@
   .bg-cream {
     background-color: var(--color-cream);
   }
-  .bg-green-500 {
-    background-color: var(--color-green-500);
-  }
   .bg-white {
     background-color: var(--color-white);
   }
   .p-8 {
     padding: calc(var(--spacing) * 8);
-  }
-  .pt-4 {
-    padding-top: calc(var(--spacing) * 4);
-  }
-  .pr-8 {
-    padding-right: calc(var(--spacing) * 8);
-  }
-  .pb-4 {
-    padding-bottom: calc(var(--spacing) * 4);
-  }
-  .pl-8 {
-    padding-left: calc(var(--spacing) * 8);
   }
   .text-black {
     color: var(--color-black);
@@ -270,9 +231,6 @@
   }
   .text-green-500 {
     color: var(--color-green-500);
-  }
-  .text-white {
-    color: var(--color-white);
   }
   .uppercase {
     text-transform: uppercase;
@@ -293,24 +251,6 @@
   .md\:flex-row {
     @media (width >= 48rem) {
       flex-direction: row;
-    }
-  }
-  .min-\[90rem\]\:hover\:bg-green-700 {
-    @media (width >= 90rem) {
-      &:hover {
-        @media (hover: hover) {
-          background-color: var(--color-green-700);
-        }
-      }
-    }
-  }
-  .\32 xl\:hover\:bg-green-700 {
-    @media (width >= 96rem) {
-      &:hover {
-        @media (hover: hover) {
-          background-color: var(--color-green-700);
-        }
-      }
     }
   }
 }
@@ -364,6 +304,27 @@
     font-weight: var(--font-weight-medium);
     --tw-tracking: var(--tracking-normal);
     letter-spacing: var(--tracking-normal);
+  }
+  .cart-button {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: calc(var(--spacing) * 2);
+    border-radius: var(--radius-lg);
+    background-color: var(--color-green-500);
+    padding-top: calc(var(--spacing) * 4);
+    padding-right: calc(var(--spacing) * 8);
+    padding-bottom: calc(var(--spacing) * 4);
+    padding-left: calc(var(--spacing) * 8);
+    color: var(--color-white);
+    @media (width >= 90rem) {
+      &:hover {
+        @media (hover: hover) {
+          background-color: var(--color-green-700);
+        }
+      }
+    }
   }
 }
 @property --tw-leading {
